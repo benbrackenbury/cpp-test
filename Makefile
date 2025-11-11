@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall $(shell pkg-config --cflags glfw3)
+CXXFLAGS = -std=c++17 -Wall $(shell pkg-config --cflags glfw3) -Iinclude
 LDFLAGS = $(shell pkg-config --libs glfw3) -framework Cocoa -framework OpenGL -framework IOKit
 OUTDIR = out
 TARGET = $(OUTDIR)/program
