@@ -1,0 +1,17 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-Wall",
+      "-I/opt/homebrew/Cellar/glfw/3.4/include",
+      "-o",
+      "out/program",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/benbrackenbury/Projects/cpp",
+    "file": "/Users/benbrackenbury/Projects/cpp/src/main.cpp",
+    "output": "/Users/benbrackenbury/Projects/cpp/out/program"
+  }
+]
