@@ -1,7 +1,6 @@
-#include "Window.hpp"
+#include "Core/Window.h"
 
 int main() {
-  Window window = Window(640, 800, "Test Window", "#f44000");
-  window.loop();
-  return 0;
+    Core::Window(800, 640, "Test Window", "#222222").loop();
+    return 0;
 }
